@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 开机自启权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- 摄像头权限 (Orbbec Gemini 2 深度摄像头) -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- USB 设备权限 -->
+    <uses-permission android:name="android.permission.USB_PERMISSION" />
+
+    <!-- Orbbec 摄像头通过 USB 连接，需要 USB Host 特性 -->
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartMirror"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="27">
+
+        <!--
+            MainActivity: Compose 列表页 + 详情页 (Jetpack Compose Navigation)
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/Theme.SmartMirror.Fullscreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- TryOnActivity: 试穿页面 (OpenGL ES 3D 渲染) -->
+        <activity
+            android:name=".TryOnActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SmartMirror.Fullscreen" />
+
+        <!--
+            BootReceiver: 开机自启广播接收器
+        -->
+        <receiver
+            android:name=".BootReceiver"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

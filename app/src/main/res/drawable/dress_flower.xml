@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- 碎花连衣裙 -->
+    <path
+        android:fillColor="#F8C8D8"
+        android:strokeColor="#E890A8"
+        android:strokeWidth="2"
+        android:pathData="M65,45 L135,45 L148,80 L155,185 L45,185 L52,80 Z" />
+    <!-- 腰部收腰 -->
+    <path
+        android:fillColor="#F0B8C8"
+        android:pathData="M55,95 Q100,90 145,95 L142,98 Q100,93 58,98 Z" />
+    <!-- 碎花装饰 -->
+    <circle android:fillColor="#FF6B8A" android:radius="4dp" android:centerX="80" android:centerY="110" />
+    <circle android:fillColor="#FF85A0" android:radius="3dp" android:centerX="120" android:centerY="120" />
+    <circle android:fillColor="#FF6B8A" android:radius="3dp" android:centerX="90" android:centerY="140" />
+    <circle android:fillColor="#FF85A0" android:radius="4dp" android:centerX="110" android:centerY="150" />
+    <circle android:fillColor="#FF6B8A" android:radius="3dp" android:centerX="75" android:centerY="160" />
+    <circle android:fillColor="#FF85A0" android:radius="3dp" android:centerX="130" android:centerY="135" />
+    <circle android:fillColor="#FF6B8A" android:radius="4dp" android:centerX="100" android:centerY="170" />
+    <!-- V领 -->
+    <path
+        android:fillColor="#E890A8"
+        android:pathData="M82,48 Q100,68 118,48 L110,56 Q100,62 90,56 Z" />
+</vector>

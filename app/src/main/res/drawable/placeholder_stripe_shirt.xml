@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- 条纹衬衫 -->
+    <path
+        android:fillColor="#E8F0F8"
+        android:strokeColor="#B0C4DE"
+        android:strokeWidth="2"
+        android:pathData="M30,30 L90,30 L95,50 L95,105 L25,105 L25,50 Z" />
+    <path
+        android:fillColor="#B0C4DE"
+        android:pathData="M30,45 L90,45 L90,48 L30,48 Z" />
+    <path
+        android:fillColor="#B0C4DE"
+        android:pathData="M30,60 L90,60 L90,63 L30,63 Z" />
+    <path
+        android:fillColor="#B0C4DE"
+        android:pathData="M28,75 L92,75 L92,78 L28,78 Z" />
+    <path
+        android:fillColor="#B0C4DE"
+        android:pathData="M25,90 L95,90 L95,93 L25,93 Z" />
+    <path
+        android:fillColor="#A0B4CE"
+        android:pathData="M45,30 L45,50 L48,50 L48,30 Z" />
+</vector>

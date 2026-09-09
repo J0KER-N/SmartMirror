@@ -1,0 +1,33 @@
+# Backend
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/data/
+backend/*.log
+
+# Frontend (Android)
+.gradle/
+app/build/
+build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Misc
+*.log
+*.tmp
+.claude/

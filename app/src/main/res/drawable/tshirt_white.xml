@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- 白色T恤 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#D5D5D5"
+        android:strokeWidth="2"
+        android:pathData="M60,75 L140,75 L148,88 L148,175 L52,175 L52,88 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#D5D5D5"
+        android:strokeWidth="2"
+        android:pathData="M60,75 L55,60 L100,52 L145,60 L140,75 Z" />
+    <!-- 领口 -->
+    <path
+        android:fillColor="#F0F0F0"
+        android:pathData="M80,62 Q100,80 120,62 Q100,68 80,62 Z" />
+    <!-- 口袋 -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1"
+        android:pathData="M112,100 L130,100 L130,112 L112,112 Z" />
+</vector>

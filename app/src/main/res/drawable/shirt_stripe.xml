@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- 条纹衬衫 -->
+    <path
+        android:fillColor="#F0F4F8"
+        android:strokeColor="#C0CDD8"
+        android:strokeWidth="2"
+        android:pathData="M58,70 L142,70 L150,88 L150,175 L50,175 L50,88 Z" />
+    <!-- 领子 -->
+    <path
+        android:fillColor="#E8EEF4"
+        android:strokeColor="#C0CDD8"
+        android:strokeWidth="1.5"
+        android:pathData="M58,70 L50,55 L100,48 L150,55 L142,70 Z" />
+    <!-- 领口 -->
+    <path
+        android:fillColor="#D8E0E8"
+        android:pathData="M78,58 Q100,70 122,58 L98,65 Z" />
+    <!-- 竖条纹 -->
+    <path android:fillColor="#B0C4D8" android:pathData="M68,80 L68,172 L71,172 L71,80 Z" />
+    <path android:fillColor="#B0C4D8" android:pathData="M84,80 L84,172 L87,172 L87,80 Z" />
+    <path android:fillColor="#B0C4D8" android:pathData="M100,80 L100,172 L103,172 L103,80 Z" />
+    <path android:fillColor="#B0C4D8" android:pathData="M116,80 L116,172 L119,172 L119,80 Z" />
+    <path android:fillColor="#B0C4D8" android:pathData="M132,80 L132,172 L135,172 L135,80 Z" />
+    <!-- 口袋 -->
+    <path
+        android:fillColor="#E8EEF4"
+        android:strokeColor="#C0CDD8"
+        android:strokeWidth="1"
+        android:pathData="M110,100 L135,100 L135,113 L110,113 Z" />
+</vector>

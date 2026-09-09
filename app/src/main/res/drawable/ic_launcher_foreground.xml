@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 镜子 + 衣服 简易矢量图标 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 镜子外框 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,18h48c4.4,0 8,3.6 8,8v44c0,4.4 -3.6,8 -8,8H30c-4.4,0 -8,-3.6 -8,-8V26c0,-4.4 3.6,-8 8,-8z" />
+    <!-- 镜面 -->
+    <path
+        android:fillColor="#B3E5FC"
+        android:pathData="M34,24h40v36H34z" />
+    <!-- 镜子高光 -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M38,28h8v28h-8z" />
+
+    <!-- 衣架横杆 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,66h32v4h-32z" />
+    <!-- 衣架钩 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,58h4v8h-4z" />
+
+    <!-- 衣服主体 -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M42,70 L42,90 C42,91.1 43,92 44,92 L64,92 C65,92 66,91.1 66,90 L66,70 L58,76 L50,70 Z" />
+    <!-- 衣领 -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M46,70 L54,78 L62,70 L58,68 L50,68 Z" />
+
+</vector>

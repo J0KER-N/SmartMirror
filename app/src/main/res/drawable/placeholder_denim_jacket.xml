@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- 牛仔夹克 -->
+    <path
+        android:fillColor="#4A7B9D"
+        android:strokeColor="#2C5F7C"
+        android:strokeWidth="2"
+        android:pathData="M20,35 L100,35 L100,105 L20,105 Z" />
+    <path
+        android:fillColor="#4A7B9D"
+        android:strokeColor="#2C5F7C"
+        android:strokeWidth="2"
+        android:pathData="M20,35 L15,20 L35,15 L55,20 L60,20 L60,35 Z" />
+    <path
+        android:fillColor="#4A7B9D"
+        android:strokeColor="#2C5F7C"
+        android:strokeWidth="2"
+        android:pathData="M60,35 L60,20 L85,15 L105,20 L100,35 Z" />
+    <path
+        android:fillColor="#3A6B8D"
+        android:pathData="M35,50 L85,50 L85,55 L35,55 Z" />
+</vector>

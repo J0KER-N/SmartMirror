@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- 白色T恤 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#CCCCCC"
+        android:strokeWidth="2"
+        android:pathData="M30,40 L90,40 L95,55 L95,100 L25,100 L25,55 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#CCCCCC"
+        android:strokeWidth="2"
+        android:pathData="M30,40 L25,30 L60,25 L95,30 L90,40 Z" />
+</vector>

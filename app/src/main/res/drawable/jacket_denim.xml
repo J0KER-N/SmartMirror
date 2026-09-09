@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- 牛仔夹克 -->
+    <path
+        android:fillColor="#5B7FA5"
+        android:strokeColor="#3D5A7D"
+        android:strokeWidth="2.5"
+        android:pathData="M50,70 L150,70 L155,175 L45,175 Z" />
+    <!-- 左领 -->
+    <path
+        android:fillColor="#5B7FA5"
+        android:strokeColor="#3D5A7D"
+        android:strokeWidth="2"
+        android:pathData="M50,70 L40,55 L65,48 L85,55 L90,70 Z" />
+    <!-- 右领 -->
+    <path
+        android:fillColor="#5B7FA5"
+        android:strokeColor="#3D5A7D"
+        android:strokeWidth="2"
+        android:pathData="M110,70 L115,55 L135,48 L160,55 L150,70 Z" />
+    <!-- 中线 -->
+    <path
+        android:fillColor="#4A6D90"
+        android:pathData="M98,70 L98,175 L102,175 L102,70 Z" />
+    <!-- 左口袋 -->
+    <path
+        android:fillColor="#4A6D90"
+        android:strokeColor="#3D5A7D"
+        android:strokeWidth="1"
+        android:pathData="M62,105 L82,105 L82,118 L62,118 Z" />
+    <!-- 右口袋 -->
+    <path
+        android:fillColor="#4A6D90"
+        android:strokeColor="#3D5A7D"
+        android:strokeWidth="1"
+        android:pathData="M118,105 L138,105 L138,118 L118,118 Z" />
+    <!-- 纽扣 -->
+    <circle android:fillColor="#C4A35A" android:radius="3dp" android:centerX="100" android:centerY="85" />
+    <circle android:fillColor="#C4A35A" android:radius="3dp" android:centerX="100" android:centerY="110" />
+    <circle android:fillColor="#C4A35A" android:radius="3dp" android:centerX="100" android:centerY="135" />
+</vector>

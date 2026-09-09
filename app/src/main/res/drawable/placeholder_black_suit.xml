@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- 黑色西装 -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:strokeColor="#333333"
+        android:strokeWidth="2"
+        android:pathData="M25,35 L95,35 L100,105 L20,105 Z" />
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M45,35 L45,105 L48,105 L48,35 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,55 L62,55 L62,80 L58,80 Z" />
+</vector>

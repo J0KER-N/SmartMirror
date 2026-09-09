@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- 碎花连衣裙 -->
+    <path
+        android:fillColor="#FFB6C1"
+        android:strokeColor="#FF69B4"
+        android:strokeWidth="2"
+        android:pathData="M35,20 L85,20 L95,50 L95,110 L25,110 L25,50 Z" />
+    <circle
+        android:fillColor="#FF69B4"
+        android:centerX="45"
+        android:centerY="65"
+        android:radius="3dp" />
+    <circle
+        android:fillColor="#FF69B4"
+        android:centerX="60"
+        android:centerY="55"
+        android:radius="3dp" />
+    <circle
+        android:fillColor="#FF69B4"
+        android:centerX="75"
+        android:centerY="75"
+        android:radius="3dp" />
+    <circle
+        android:fillColor="#FF69B4"
+        android:centerX="50"
+        android:centerY="85"
+        android:radius="3dp" />
+    <circle
+        android:fillColor="#FF69B4"
+        android:centerX="70"
+        android:centerY="95"
+        android:radius="3dp" />
+    <circle
+        android:fillColor="#FF69B4"
+        android:centerX="40"
+        android:centerY="100"
+        android:radius="3dp" />
+</vector>

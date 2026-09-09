@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- 黑色西装 -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:strokeColor="#333333"
+        android:strokeWidth="2"
+        android:pathData="M48,68 L152,68 L158,178 L42,178 Z" />
+    <!-- 左翻领 -->
+    <path
+        android:fillColor="#222222"
+        android:strokeColor="#3A3A3A"
+        android:strokeWidth="1.5"
+        android:pathData="M48,68 L30,50 L70,42 L90,55 L92,68 Z" />
+    <!-- 右翻领 -->
+    <path
+        android:fillColor="#222222"
+        android:strokeColor="#3A3A3A"
+        android:strokeWidth="1.5"
+        android:pathData="M108,68 L110,55 L130,42 L170,50 L152,68 Z" />
+    <!-- 衬衫领 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M85,50 Q100,62 115,50 L110,60 L100,65 L90,60 Z" />
+    <!-- 西装扣 -->
+    <circle android:fillColor="#444444" android:radius="4dp" android:centerX="100" android:centerY="115" />
+    <circle android:fillColor="#444444" android:radius="4dp" android:centerX="100" android:centerY="140" />
+    <!-- 胸袋 -->
+    <path
+        android:fillColor="#2A2A2A"
+        android:strokeColor="#3A3A3A"
+        android:strokeWidth="1"
+        android:pathData="M115,85 L130,85 L130,95 L115,95 Z" />
+</vector>

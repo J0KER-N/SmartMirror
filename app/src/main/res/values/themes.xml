@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基础主题: 无 ActionBar，深色窗口背景适配 Camera 预览 -->
+    <style name="Theme.SmartMirror" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Material 3 桥接属性 -->
+        <item name="colorPrimary">@color/button_blue</item>
+        <item name="colorPrimaryDark">#FF1976D2</item>
+        <item name="colorAccent">#FF03DAC5</item>
+
+        <!-- 窗口 -->
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Compose 主题桥接 -->
+        <item name="android:colorBackground">#FFF5F5F5</item>
+        <item name="android:textColorPrimary">#FF1C1B1F</item>
+        <item name="android:textColorSecondary">#FF49454F</item>
+        <item name="android:colorForeground">#FF2196F3</item>
+    </style>
+
+    <!-- 全屏沉浸式主题 -->
+    <style name="Theme.SmartMirror.Fullscreen" parent="Theme.SmartMirror">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

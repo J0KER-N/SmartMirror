@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- 针织开衫 -->
+    <path
+        android:fillColor="#D2B48C"
+        android:strokeColor="#A0845C"
+        android:strokeWidth="2"
+        android:pathData="M25,35 L95,35 L100,55 L100,105 L20,105 L20,55 Z" />
+    <path
+        android:fillColor="#C4A67A"
+        android:pathData="M45,35 L45,105 L48,105 L48,35 Z" />
+    <path
+        android:fillColor="#A0845C"
+        android:pathData="M40,50 L80,50 L80,52 L40,52 Z" />
+    <path
+        android:fillColor="#A0845C"
+        android:pathData="M40,70 L80,70 L80,72 L40,72 Z" />
+    <path
+        android:fillColor="#A0845C"
+        android:pathData="M40,90 L80,90 L80,92 L40,92 Z" />
+</vector>

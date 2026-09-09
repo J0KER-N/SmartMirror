@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Person silhouette for mock/testing。
+     注意：VectorDrawable 只支持 <path> 子元素，圆必须写成 arc path -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="640dp"
+    android:height="480dp"
+    android:viewportWidth="640"
+    android:viewportHeight="480">
+    <!-- 躯干 -->
+    <path
+        android:fillColor="#E8D5B7"
+        android:strokeColor="#C4A882"
+        android:strokeWidth="2"
+        android:pathData="M280,80 L360,80 L370,100 L380,120 L380,420 L260,420 L260,120 L270,100 Z" />
+    <!-- 头部（圆心 320,55 半径 30，两段圆弧） -->
+    <path
+        android:fillColor="#E8D5B7"
+        android:pathData="M290,55 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0 Z" />
+    <!-- 左臂 -->
+    <path
+        android:fillColor="#E8D5B7"
+        android:pathData="M260,140 L170,200 L155,280 L145,320 L140,320 L168,280 L180,200 L260,160 Z" />
+    <!-- 右臂 -->
+    <path
+        android:fillColor="#E8D5B7"
+        android:pathData="M380,140 L470,200 L485,280 L495,320 L500,320 L472,280 L460,200 L380,160 Z" />
+    <!-- 左脚 -->
+    <path
+        android:fillColor="#E8D5B7"
+        android:pathData="M265,410 L240,470 L260,470 L280,410 Z" />
+    <!-- 右脚 -->
+    <path
+        android:fillColor="#E8D5B7"
+        android:pathData="M375,410 L400,470 L380,470 L360,410 Z" />
+</vector>

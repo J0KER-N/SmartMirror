@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".TryOnActivity">
+
+    <!-- 正常试衣容器（底层） -->
+    <FrameLayout
+        android:id="@+id/cameraContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <!-- 顶部控制栏（浮层） -->
+    <LinearLayout
+        android:id="@+id/topControlBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/bg_gradient_top_scrim">
+
+        <!-- 返回按钮（圆形图标按钮） -->
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/bg_circle_button"
+            android:contentDescription="@string/button_back"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_back_arrow"
+            android:tint="@color/white" />
+
+        <!-- 标题 -->
+        <TextView
+            android:id="@+id/tryOnTitleTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/main_title"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- 模拟模式指示器，默认隐藏 -->
+        <TextView
+            android:id="@+id/mockModeBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/bg_mock_badge"
+            android:gravity="center"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:text="@string/mock_mode_indicator"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+    <!-- 降级模式提示层（默认隐藏） -->
+    <LinearLayout
+        android:id="@+id/degradedLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/bg_degraded_overlay"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <!-- 警告图标 -->
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:alpha="0.8"
+            android:contentDescription="@null"
+            android:src="@android:drawable/ic_dialog_alert"
+            android:tint="@color/semi_transparent_white" />
+
+        <!-- 降级消息 -->
+        <TextView
+            android:id="@+id/degradedMessageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="8dp"
+            android:paddingHorizontal="32dp"
+            android:text="@string/degraded_mode_message"
+            android:textColor="@color/semi_transparent_white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

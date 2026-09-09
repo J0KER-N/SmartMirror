@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- 针织开衫 -->
+    <path
+        android:fillColor="#D4B896"
+        android:strokeColor="#B8956E"
+        android:strokeWidth="2"
+        android:pathData="M48,68 L152,68 L158,90 L158,178 L42,178 L42,90 Z" />
+    <!-- 左前片 -->
+    <path
+        android:fillColor="#CEB08E"
+        android:pathData="M48,68 L100,68 L100,178 L42,178 L42,90 Z" />
+    <!-- V领开口 -->
+    <path
+        android:fillColor="#C4A882"
+        android:pathData="M85,60 Q100,80 115,60 L105,70 L100,65 L95,70 Z" />
+    <!-- 纹理横条 -->
+    <path android:fillColor="#C8A880" android:pathData="M50,95 L150,95 L150,97 L50,97 Z" />
+    <path android:fillColor="#C8A880" android:pathData="M48,110 L152,110 L152,112 L48,112 Z" />
+    <path android:fillColor="#C8A880" android:pathData="M46,125 L154,125 L154,127 L46,127 Z" />
+    <path android:fillColor="#C8A880" android:pathData="M44,140 L156,140 L156,142 L44,142 Z" />
+    <path android:fillColor="#C8A880" android:pathData="M43,155 L157,155 L157,157 L43,157 Z" />
+    <path android:fillColor="#C8A880" android:pathData="M42,170 L158,170 L158,172 L42,172 Z" />
+    <!-- 纽扣 -->
+    <circle android:fillColor="#8B6914" android:radius="3dp" android:centerX="100" android:centerY="82" />
+    <circle android:fillColor="#8B6914" android:radius="3dp" android:centerX="100" android:centerY="100" />
+    <circle android:fillColor="#8B6914" android:radius="3dp" android:centerX="100" android:centerY="118" />
+</vector>
